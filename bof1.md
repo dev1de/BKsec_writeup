@@ -50,7 +50,9 @@ Chương trình in ra địa chỉ hàm main() do đó ta có thể tính đư�
 win_addr = main_address - main_offset + win_offset
 
 Sử dụng objdump để tìm được offset của main() và win()
+
 ![alt text](https://github.com/dev1de/images/blob/main/3.png)
+
 ![alt text](https://github.com/dev1de/images/blob/main/4.png)
 
 Ta có script để get shell:
